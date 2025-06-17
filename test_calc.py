@@ -1,4 +1,4 @@
-from calc import calc
+from calc import add
 
 
 # Write your tests below.
@@ -9,4 +9,4 @@ from calc import calc
 
 
 def test_empty_string_returns_zero():
-    assert calc("") == 0
+    assert add("") == 0
