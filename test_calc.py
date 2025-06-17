@@ -1,12 +1,12 @@
 from calc import calc
 
 
-# write your tests here
-# TIP: call calc to test your function and use assert
-# Your tests must be inside functions named test_*
-# Example:
-# def test_simple_add():
-# ...
+# Write your tests below.
+# Use assert statements to check that calc returns the correct result.
+# All test functions must start with test_ to be discovered by pytest or similar frameworks.
+# We have included a single starter test.
+# Add more test_* functions as you work through each new requirement.
 
-def test_something():
-    pass
+
+def test_empty_string_returns_zero():
+    assert calc("") == 0
