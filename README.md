@@ -4,7 +4,7 @@ A simple String Calculator exercise to be used to practice Test-Driven Developme
 
 ## Goal
 
-Create a method `Add(string numbers)` that returns the sum of numbers in a string, following a series of incremental requirements. This kata is designed to encourage step-by-step development and frequent refactoring.
+Create a python function `add(numbers)` that returns the sum of numbers in a string, following a series of incremental requirements. This kata is designed to encourage step-by-step development and frequent refactoring.
 
 ---
 
